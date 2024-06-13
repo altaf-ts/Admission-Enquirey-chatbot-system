@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("2mm.png"); /* Assuming the image is in the same directory as your CSS file */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #f2f2f2; /* Fallback color in case the image is missing */
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333333;
+}
+
+#chat-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Adding opacity to the chat container */
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    overflow-y: scroll;
+    max-height: 300px;
+}
+
+.message {
+    margin-bottom: 10px;
+}
+
+.user-message {
+    text-align: right;
+}
+
+.chatbot-message {
+    text-align: left;
+}
+
+.message-content {
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 20px;
+}
+
+.user-message .message-content {
+    background-color: #e2f0cb;
+}
+
+.chatbot-message .message-content {
+    background-color: #d2d2d2;
+}
+
+#user-input-form {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.send-button {
+    width: 15%;
+    padding: 10px;
+    background-color: #4267B2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+.fa-paper-plane {
+    font-size: 20px;
+}
+
+.fa-paper-plane:hover {
+    background-color: #29487D;
+}
+
+.box {
+    /* Remove background color and set overflow property */
+    overflow-y: scroll;
+    max-height: 300px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.highlight-heading {
+    color: red;
+    font-weight: bold;
+}
